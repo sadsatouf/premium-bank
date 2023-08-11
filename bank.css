@@ -1,0 +1,692 @@
+ 
+ body {
+ padding: 0;
+  margin: 0;
+  background-color:#DEDCD9;
+}
+ *{
+     box-sizing: border-box;
+    
+    
+ }
+    .container{
+            background:#F2CD65;
+           width:100%;
+            height:60px;
+          
+            
+            position: absolute;
+            left:0;
+            top:35px;
+        }
+        .ul-bank{
+            display:flex;
+           position:relative;
+            width:100%;
+            left:-20%;
+        }
+        
+        
+  @media (min-width:900px){
+  
+    .ul-bank {
+        left:-40%;
+    }
+}
+        
+    @media (min-width:1020px){
+  
+    .ul-bank {
+        left:-30%;
+    }
+}
+        
+        
+        ul{
+        position: absolute;
+        bottom:0;
+        right:0;
+            list-style-type:none;
+            display:flex;
+            justify-content: center;
+            flex-direction:row;
+            
+        }
+        ul li{
+            width:100%;
+           
+            margin:20px;
+        }
+        .title-bank{
+            display:flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+      
+        
+        
+        
+        .title-bank h2{
+            margin-left:40px;
+        }
+        .ul-bank{
+            margin-top:11px;
+     
+     }
+     
+     
+     .title-bank i {
+         font-size: 30px;
+     }
+     .beforelogo{
+         width:100%;
+         height:35px;
+         background-color:#26211F;
+         position:absolute;
+         left:0;
+         top:0;
+        
+         
+     }
+      .beforelogo i{
+          font-size: 12px;
+       margin-top: 12px;
+       margin-left:5px ;
+       color:#373634;
+      }
+       .beforelogo .iall {
+           margin-left:7px;
+           display: flex;
+           align-items: center;
+       }
+      .title-bank i {
+          position:absolute;
+          left:20px;
+      }
+        .title-bank h2 {
+         margin-left: 60px;
+          
+      }
+      @media (max-width:760px){
+    .ul-bank{
+        display:none;
+    }
+    
+    
+    
+    .container .navandroid {
+        display:block;
+    }
+}
+
+
+  @media (min-width:768px){
+  
+    .container .navandroid i {
+        display:none;
+    }
+}
+
+
+.container .navandroid {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    margin-right: 15px;
+    font-size: 27px;
+}
+
+.container .title-bank{
+    position:absolute;
+    top:0;
+}
+
+.ul-bank {
+    margin-top: 19px;
+}
+
+.theendheader {
+    display:flex;
+    position:absolute;
+    width:100%;
+    right:60px;
+    top:-13px;
+    justify-content: flex-end;
+    
+}
+
+
+  @media (min-width:900px){
+  
+    .theendheader {
+        right:120px;
+    }
+}
+.endimg {
+    display:flex;
+    position:absolute;
+    width:100%;
+    right:30px;
+    top:50%;
+    left:-10px;
+    transform:translateY(-50%);
+    justify-content: flex-end;
+}
+
+.endimg img {
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    
+    
+}
+ @media (min-width:900px){
+  
+    .endimg {
+        left:-60px;
+    }
+}
+ @media (max-width:760px){
+  
+    .endimg {
+        display:none;
+    }.theendheader {
+        display:none;
+    }
+}
+.theendheader::before {
+    content:"Accountant";
+    width:30px;
+    height:30px;
+    margin-top:48px;
+    margin-right:-49px;
+    font-size:13px;
+}
+ .theendheader h5{
+     font-size:16px;
+ }
+ 
+ 
+ .arrowend {
+     display:flex;
+    position:absolute;
+    width:100%;
+    right:10px;
+    top:50%;
+    left:-20px;
+    transform:translateY(-50%);
+    justify-content: flex-end;
+ }
+ 
+ 
+  @media (max-width:850px){
+  
+    .arrowend {
+        display:none;
+    }
+}
+.h2myb {
+    margin-left:25px;
+    margin-top:10px;
+    font-size: 15px;
+}
+.document-work {
+    width:200px;
+    height:150px;
+    background: white;
+    border-radius:9px;
+    box-shadow: 1px 1px 1px 1px #DEDCD9 ;
+    display: inline-block;
+    position:relative;
+    top:-2px;
+}
+.document-work1 {
+    width:320px;
+    height:150px;
+    background: white;
+    border-radius:9px;
+    box-shadow: 1px 1px 1px 1px #DEDCD9 ;
+    display: inline-block;
+    margin-left:10px;
+    
+}
+.document-work p {
+    font-weight: bold;
+    font-size: 17px;
+    display: block;
+    margin-left:12px;
+}
+.document-work p span {
+    display: block;
+    
+}
+.document-work::after{
+    content:"26";
+    background-color:#FA4226;
+    
+  position:absolute;
+  right:15px;
+    padding: 7px;
+    width:37px;
+    text-align: center;
+    border-radius:15px;
+    top:20px;
+    color: white;
+}
+.document-work h4 {
+    margin-left: 7px;
+    margin-top: 0px;
+    
+    font-size:12px;
+    position:relative;
+    width:100%;
+    left:30px;
+    bottom:15px;
+}
+.document-work i {
+     margin-left: 12px;
+     margin-top: 0px;
+     display: inline;
+}
+.document-work h4::after{
+    content:"22";
+    background-color:#D9AD5B;
+    
+  position:absolute;
+  right:63px;
+    padding: 3px;
+    width:23px;
+    text-align: center;
+    border-radius:15px;
+    top:-2px;
+    color: white;
+}
+
+.document-work h5 {
+    margin-left: 7px;
+    
+    margin-top: 0;
+    font-size:10px;
+    position:relative;
+    width:100%;
+    left:30px;
+    bottom:15px;
+}
+.document-work h5::after{
+    content:"4";
+    background-color:#D9AD5B;
+    
+  position:absolute;
+  right:63px;
+    padding: 3px;
+    width:23px;
+    text-align: center;
+    border-radius:15px;
+    top:-2px;
+    color: white;
+    margin-top:-1px;
+}
+
+
+
+@media (min-width:900px){
+  
+    .document-work {
+        width: 350px;
+    }   .document-work1{
+        width: 450px;
+    }
+}
+
+
+@media (max-width:700px){
+  
+    .document-work {
+       
+   margin-left: 30px;
+  margin-bottom: 60px;
+       
+    } 
+}
+
+
+@media (max-width:400px){
+  
+    .document-work {
+        width: 70%;
+        
+    }   .document-work1{
+        width: 80%;
+    }
+}
+
+
+
+
+@media (min-width:760px){
+  
+    .document-work1{
+        position:relative;
+        top:-37px;
+      
+    }
+}
+
+
+
+.document-work1 .usdandeur{
+    display: flex;
+    justify-content: center;
+    margin-top:-16px;
+}
+
+
+
+.document-work1  h3{
+    margin-left: 10px;
+}
+.document-work1  h3 span{
+    font-size: 11px;
+}
+
+
+.account{
+    height:20vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width:100%;
+    
+}
+
+.account .accounts {
+    margin-left:35px;
+}
+
+
+.account .new-account {
+    
+    
+    
+    
+}
+.account .new-account h3{
+    margin-right:315px ;
+    border:1px solid #C5C4C1;
+    width:150px;
+    text-align: center;
+    padding:6px;
+}
+
+
+
+@media (max-width:1030px){
+
+
+.account .new-account h3{
+    margin-right:220px ;
+}
+
+}
+
+
+.account .accounts h3{
+    
+    border-bottom:1px solid #C5C4C1;
+    
+    text-align: center;
+    padding:6px;
+}
+
+
+@media (max-width:750px){
+  
+    .account {
+        width:100%;
+        display: inline;
+        display: flex;
+        justify-content: flex-start;
+    }.account .accounts {
+        width: 50%;
+        
+    }.account .new-account {
+        width: 50%;
+        
+    }.account .accounts h3{
+        border:1px solid #C5C4C1;
+        margin-right:10px;
+    }
+}
+
+
+@media (width:1430px){
+.account  {
+display: inline;
+    width: 50%;
+}
+
+
+}
+
+
+.bank-account {
+    width: 72%;
+    background-color:#FFFEFB;
+    min-height: 430px;
+    max-height:4000px;
+    margin-left:30px;
+}
+
+@media (width:1440px){
+.bank-account{
+    width: 78%;
+}
+
+
+}
+@media (width:1024px){
+.bank-account{
+    width: 78%;
+}
+
+
+}
+@media (width:2560px){
+.bank-account{
+    width: 78%;
+}
+
+
+}
+
+
+.employees {
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.employees h3 {
+    margin-left: 12px;
+}
+.employees i {
+    margin-top: 20px;
+    font-size:20px;
+    border-radius:50%;
+    background:#D9AD5B;
+    width:40px;
+    height: 40px;
+    text-align: center;
+    margin-left:10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.bank-account h5 {
+    margin-left:60px;
+    margin-top:-15px;
+    color: #26211F;
+    font-size: 12px;
+    font-weight:400;
+    border-bottom:1px solid #F2F1ED;
+    padding-bottom: 15px;
+}
+.employees{
+    position: relative;
+}
+.employees h4 {
+    position: absolute;
+    right: 40px;
+    top:0px;
+    
+}
+
+.bank-account {
+    position: relative;
+    
+}
+.bank-account .dotsend {
+    position:absolute;
+    right: 20px;
+    top:21px;
+}
+
+.bank-account {
+    margin-top: -200px;
+}
+.bank-account p {
+    margin-left:55px;
+    color: #D9AD5B;
+    
+}
+
+
+@media (max-width:750px){
+.bank-account{
+    width: 90%;
+    margin-top:-40px;
+    height: 500px;
+    margin-left:18px;
+}.bank-account h4 {
+    display:none;
+   
+}.bank-account .dotsend i{
+    display: none;
+}.document-work1 {
+    margin-top: -40px;
+    width:320px;
+    margin-left:-2px;
+}
+
+
+}
+
+
+.employees .dots i {
+    margin-right: 25px;
+    background: white;
+}
+
+.employees .dots {
+    
+    
+}
+.bank-account {
+    
+}
+@media (width:320px){
+ .document-work1 {
+      
+      width: 90%;
+    }
+
+}
+
+@media (min-width:435px) and (max-width:520px){
+ .document-work1 {
+      
+      margin-left:40px;
+    }.document-work{
+      
+      margin-left:90px;
+    }
+
+}
+
+@media (min-width:520px) and (max-width:630px){
+ .document-work1 {
+      
+      margin-left:40px;
+    }.document-work{
+      
+      margin-left:90px;
+    }
+
+}
+.your-account {
+    width: 90%;
+    height:270px;
+    background:#D7B055;
+    position:absolute;
+    top:150px;
+    z-index: 999;
+    margin-left: 20px;
+    box-shadow:1px 1px 1px 1px white;
+    border-radius: 7px;
+    color: white;
+}
+
+.your-account h4 {
+    display: flex;
+    justify-content: center;
+}
+.your-account input {
+    width: 90%;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px;
+    margin-top:30px;
+}
+.your-account button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 110px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    
+    padding: 10px;
+    background:#7066DF;
+    color: white;
+}
+.account-yoour{
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+@media (max-width:720px){
+ .account-yoour {
+      
+      margin-left:-25px;
+    }.your-account button{
+        margin-bottom: 20px;
+    }
+
+}
+
+.thebanknumbberr {
+    display: none;
+}
+@media (min-width:760px){
+
+.dotsend{
+    display:none;
+}
+
+}
+.employees h4 {
+    margin-top: 32px;
+}
